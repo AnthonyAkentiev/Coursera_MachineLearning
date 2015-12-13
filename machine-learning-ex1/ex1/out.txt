@@ -1,0 +1,4 @@
+/usr/local/Cellar/octave/4.0.0_3/share/octave/4.0.0/m/startup/octaverc
+/usr/local/Cellar/octave/4.0.0_3/share/octave/site/m/startup/octaverc
+/usr/local/octave/3.8.0/share/octave/3.8.0/m/startup/octaverc
+/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
