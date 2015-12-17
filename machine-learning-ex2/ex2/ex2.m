@@ -71,6 +71,7 @@ fprintf('Gradient at initial theta (zeros): \n');
 fprintf(' %f \n', grad);
 
 fprintf('\nProgram paused. Press enter to continue.\n');
+
 pause;
 
 

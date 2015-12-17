@@ -20,7 +20,19 @@ grad = zeros(size(theta));
 % Note: grad should have the same dimensions as theta
 %
 
+mid = X * theta;
 
+predictions =  sigmoid(mid);
+
+leftPart = -y' * log(predictions);
+
+rightPart = (1 - y') * log(1 - predictions);
+
+J = (1 / m) * (leftPart - rightPart);
+
+grad = (1 / m) * ((predictions - y)' * X);
+
+whos;
 
 
 
