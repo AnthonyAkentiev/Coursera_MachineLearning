@@ -32,7 +32,6 @@ J = (1 / m) * (leftPart - rightPart);
 
 grad = (1 / m) * ((predictions - y)' * X);
 
-whos;
 
 
 
